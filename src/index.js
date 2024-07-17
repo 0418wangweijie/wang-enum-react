@@ -39,8 +39,8 @@ Constant.install = (React, { enumInfo = {} } = {}) => {
         return []
       }
       return Object.values(constantItem).map(item => ({
-        value: item.value || '',
-        desc: item.desc || '',
+        value: item.value ?? 0,
+        desc: item.desc ?? '',
       }))
     },
   }

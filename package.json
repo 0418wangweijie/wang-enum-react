@@ -1,6 +1,6 @@
 {
   "name": "wang-enum-react",
-  "version": "1.0.12",
+  "version": "1.0.17",
   "description": "A React library for managing enums",
   "main": "dist/index.js",
   "scripts": {
